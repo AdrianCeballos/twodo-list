@@ -7,9 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Twodo-list</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"</link> 
     </head>
     <body>
+        <div class = "wrap"></div>
+        
         <?php
         // put your code here
         ?>
