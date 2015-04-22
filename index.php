@@ -14,13 +14,14 @@ and open the template in the editor.
         <div class = "wrap">
             <div class ="task-list">
                 <ul>
-                    <?php require("includes/connect.php");
+                    <?php require("includes/connection.php");
                     ?>
                 </ul>
             </div>
-        </div>
-        <form class="add-new-task" autocomplete="off">
+            <form class="add-new-task" autocomplete="off">
             <input type="text" name="new-task" placeholder="Add new item..."/>
-        </form>
+            </form>
+        </div>
+        
     </body>
 </html>
