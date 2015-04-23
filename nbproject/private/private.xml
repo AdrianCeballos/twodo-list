@@ -5,6 +5,9 @@
         <group>
             <file>file:/C:/xampp/htdocs/twodo-list/index.php</file>
             <file>file:/C:/xampp/htdocs/twodo-list/css/main.css</file>
+            <file>file:/C:/xampp/htdocs/twodo-list/includes/connection.php</file>
+            <file>file:/C:/xampp/htdocs/twodo-list/css/reset.css</file>
+            <file>file:/C:/xampp/htdocs/twodo-list/css/normalize.css</file>
         </group>
     </open-files>
 </project-private>
