@@ -40,5 +40,8 @@ and open the template in the editor.
                 return false;
             });
         }
+        $('.delete-button').click(function(){
+            
+        });
     </script>
 </html>
