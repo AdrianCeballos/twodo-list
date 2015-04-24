@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -15,6 +10,21 @@ and open the template in the editor.
             <div class ="task-list">
                 <ul>
                     <?php require("includes/connection.php");
+                    $mysqli = new mysqli('localhost','root','root','twodo');
+                    $query = "SELECT = FROM tasks ORDER BY date ASC, time ASC";
+                    if ($result = $mysqli->query($query)){
+                        $numrows= $result->num_rows;
+                        if ($numrows>0){
+                            while($row = $result->fetch_assoc()){
+                                $task_id = $row['id'];
+                                $task_name = $row['task'];
+                                echo "<li>
+                                <span>'.$task_name'    
+                                ";
+                            }
+                        }
+                    }
+                    
                     ?>
                 </ul>
             </div>
