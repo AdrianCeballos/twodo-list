@@ -11,7 +11,7 @@
         <div class = "wrap">
             <a href ="view/login-form.php">Login</a>
             <a href ="view/register-form.php">Register</a>
-            <a href ="view/logout-user.php">Log out</a>
+            <a href ="controller/logout-user.php">Log out</a>
             <div class ="task-list">
                 <ul>
                     <?php

@@ -7,7 +7,7 @@
     $host = "localhost";
     $username = "root";
     $password = "root";
-    $database = "blog_db";
+    $database = "twodo";
     
     if(!isset($_SESSION["connection"])) {
         $connection = new Database($host, $username, $password, $database);
