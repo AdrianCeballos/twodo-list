@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Twodo-list</title>
         <link rel="stylesheet" type="text/css" href="css/main.css"</link> 
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"</link>
+        <link rel="stylesheet" type="text/css" href="css/reset.css"</link> 
     </head>
     <body>
         <div class = "wrap">
@@ -35,6 +37,7 @@
         </div>
         
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         add_task();
