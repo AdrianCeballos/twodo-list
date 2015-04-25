@@ -1,7 +1,7 @@
 <?php
 $task_id = strip_tags($_POST['id']);
-require ['connect.php'];
-$mysqil = new mysqlii('localhost','root','root','twodo');
+require ('connect.php');
+$mysqil = new mysqli('localhost','root','root','twodo');
 if ($result = $mysqli->query("DELETE FROM tasks WHERE id='task_id'")){
     
 }

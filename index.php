@@ -11,7 +11,7 @@
         <div class = "wrap">
             <div class ="task-list">
                 <ul>
-                    <?php require("includes/connection.php");
+                    <?php require("includes/connect.php");
                     $mysqli = new mysqli('localhost','root','root','twodo');
                     $query = "SELECT = FROM tasks ORDER BY date ASC, time ASC";
                     if ($result = $mysqli->query($query)){
@@ -48,7 +48,7 @@
                 if (new_task != ''){
                     $.post('includes/add-task.php',{task: new_task}, function(data){
                         $('.add-new-task input[name=new-task]').val();
-                        $(data).appendTo('task-list ul').hide().fadeIn();
+                        $(data).appendTo('.task-list ul').hide().fadeIn();
                     });
                 }
                 return false;
